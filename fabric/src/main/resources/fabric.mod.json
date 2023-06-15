@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "flashmod",
+  "version": "${version}",
+  "name": "Flash Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "deltaDelete"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/flashmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.flashmod.fabric.FlashModFabric"
+    ]
+  },
+  "mixins": [
+    "flashmod.mixins.json",
+    "flashmod-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "architectury": ">=6.5.77"
+  }
+}
