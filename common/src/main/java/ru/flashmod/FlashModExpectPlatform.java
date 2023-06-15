@@ -13,9 +13,9 @@ public class FlashModExpectPlatform {
      * platform sub-package, with its class suffixed with {@code Impl}.
      * <p>
      * Example:
-     * Expect: ru.flashmod.ExampleExpectPlatform#getConfigDirectory()
-     * Actual Fabric: ru.flashmod.fabric.ExampleExpectPlatformImpl#getConfigDirectory()
-     * Actual Forge: ru.flashmod.forge.ExampleExpectPlatformImpl#getConfigDirectory()
+     * Expect: ru.flashmod.FlashModExpectPlatform#getConfigDirectory()
+     * Actual Fabric: ru.flashmod.fabric.FlashModExpectPlatformImpl#getConfigDirectory()
+     * Actual Forge: ru.flashmod.forge.FlashModExpectPlatformImpl#getConfigDirectory()
      * <p>
      * <a href="https://plugins.jetbrains.com/plugin/16210-architectury">You should also get the IntelliJ plugin to help with @ExpectPlatform.</a>
      */

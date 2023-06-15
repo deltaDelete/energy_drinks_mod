@@ -7,7 +7,7 @@ import java.nio.file.Path;
 
 public class FlashModExpectPlatformImpl {
     /**
-     * This is our actual method to {@link ExampleExpectPlatform#getConfigDirectory()}.
+     * This is our actual method to {@link FlashModExpectPlatform#getConfigDirectory()}.
      */
     public static Path getConfigDirectory() {
         return FMLPaths.CONFIGDIR.get();
