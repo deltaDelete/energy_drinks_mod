@@ -14,8 +14,8 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "flashmod-common.mixins.json"
-        mixinConfig "flashmod.mixins.json"
+        mixinConfig "energy_drinks_mod-common.mixins.json"
+        mixinConfig "energy_drinks_mod.mixins.json"
     }
 }
 

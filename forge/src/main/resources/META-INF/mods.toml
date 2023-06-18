@@ -4,7 +4,7 @@ loaderVersion = "[43,)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "flashmod"
+modId = "energy_drinks_mod"
 version = "${version}"
 displayName = "Flash Mod"
 authors = "deltadelete"
@@ -13,21 +13,21 @@ This is an example description! Tell everyone what your mod is about!
 '''
 #logoFile = ""
 
-[[dependencies.flashmod]]
+[[dependencies.energy_drinks_mod]]
 modId = "forge"
 mandatory = true
 versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.flashmod]]
+[[dependencies.energy_drinks_mod]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.flashmod]]
+[[dependencies.energy_drinks_mod]]
 modId = "architectury"
 mandatory = true
 versionRange = "[6.5.77,)"

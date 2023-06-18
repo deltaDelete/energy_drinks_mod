@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "flashmod:item/flash_orange"
+    "layer0": "energy_drinks_mod:item/flash_berry"
   }
 }

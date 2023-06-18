@@ -1,4 +1,4 @@
-package ru.flashmod.mixin;
+package ru.deltadelete.energy_drinks_mod.mixin;
 
 import net.minecraft.client.gui.screens.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;

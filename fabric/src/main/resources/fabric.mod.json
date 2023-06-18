@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "flashmod",
+  "id": "energy_drinks_mod",
   "version": "${version}",
-  "name": "Flash Mod",
+  "name": "Energy Drinks",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "deltaDelete"
@@ -12,16 +12,16 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "MIT",
-  "icon": "assets/flashmod/icon.png",
+  "icon": "assets/energy_drinks_mod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "ru.flashmod.fabric.FlashModFabric"
+      "ru.deltadelete.energy_drinks_mod.fabric.EnergyDrinksModFabric"
     ]
   },
   "mixins": [
-    "flashmod.mixins.json",
-    "flashmod-common.mixins.json"
+    "energy_drinks_mod.mixins.json",
+    "energy_drinks_mod-common.mixins.json"
   ],
   "depends": {
     "fabric": "*",
