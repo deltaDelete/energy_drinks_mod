@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "item": "energy_drinks_mod:black_rocket",
+    "count": 1
+  }
+}

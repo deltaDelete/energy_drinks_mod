@@ -10,10 +10,12 @@ import ru.deltadelete.energy_drinks_mod.EnergyDrinksMod;
 
 import java.util.function.Supplier;
 
+import ru.deltadelete.energy_drinks_mod.effects.DiarrheaEffect;
 import ru.deltadelete.energy_drinks_mod.effects.EnergyDrinkEffect;
 
 public enum EffectsRegistry {
-    ENERGY_DRINK("energy_drink", EnergyDrinkEffect::new);
+    ENERGY_DRINK("energy_drink", EnergyDrinkEffect::new),
+    DIARRHEA("diarrhea", DiarrheaEffect::new);
 
     private final String pathName;
     private final Supplier<MobEffect> mobEffectSupplier;

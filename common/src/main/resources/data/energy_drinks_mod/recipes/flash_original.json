@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "energy_drinks_mod:can"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:grass"
+    }
+  ],
+  "result": {
+    "item": "energy_drinks_mod:flash_original",
+    "count": 1
+  }
+}
