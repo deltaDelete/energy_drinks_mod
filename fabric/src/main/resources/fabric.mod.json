@@ -3,7 +3,7 @@
   "id": "energy_drinks_mod",
   "version": "${version}",
   "name": "Energy Drinks Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Add energy drinks",
   "authors": [
     "deltaDelete"
   ],

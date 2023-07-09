@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "${forge_version_range}"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/deltaDelete/energy_drinks_mod/issues"
 license = "MIT"
 
 [[mods]]
@@ -9,7 +9,7 @@ version = "${version}"
 displayName = "Energy Drinks Mod"
 authors = "deltadelete"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Add energy drinks
 '''
 #logoFile = ""
 
