@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "energy_drinks_mod",
   "version": "${version}",
-  "name": "Energy Drinks",
+  "name": "Energy Drinks Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "deltaDelete"
