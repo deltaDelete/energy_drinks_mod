@@ -10,5 +10,7 @@
   "effect.energy_drinks_mod.energy_drink": "Energy drink",
   "effect.energy_drinks_mod.diarrhea": "Diarrhea",
   "death.attack.heart_attack": "%s died from heart attack",
-  "death.attack.diarrhea": "%s died from diarrhea"
+  "death.attack.heart_attack.player": "%s died from heart attack escaping %s",
+  "death.attack.diarrhea": "%s died from diarrhea",
+  "death.attack.diarrhea.player": "%s died from diarrhea escaping %s"
 }

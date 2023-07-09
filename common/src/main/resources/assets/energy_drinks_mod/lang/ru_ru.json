@@ -10,5 +10,7 @@
   "effect.energy_drinks_mod.energy_drink": "Энергетический напиток",
   "effect.energy_drinks_mod.diarrhea": "Понос",
   "death.attack.heart_attack": "%s умер от сердечного приступа",
-  "death.attack.diarrhea": "%s умер от поноса"
+  "death.attack.heart_attack.player": "%s умер от сердечного приступа пытаясь сбежать от %s",
+  "death.attack.diarrhea": "%s умер от поноса",
+  "death.attack.diarrhea.player": "%s умер от поноса пытаясь сбежать от %s"
 }
