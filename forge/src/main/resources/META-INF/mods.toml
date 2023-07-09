@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[43,)"
+loaderVersion = "${forge_version_range}"
 #issueTrackerURL = ""
 license = "MIT"
 
@@ -16,20 +16,20 @@ This is an example description! Tell everyone what your mod is about!
 [[dependencies.energy_drinks_mod]]
 modId = "forge"
 mandatory = true
-versionRange = "[43,)"
+versionRange = "${forge_version_range}"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.energy_drinks_mod]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.2,)"
+versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.energy_drinks_mod]]
 modId = "architectury"
 mandatory = true
-versionRange = "[6.5.77,)"
+versionRange = "${architectury_version_range}"
 ordering = "AFTER"
 side = "BOTH"

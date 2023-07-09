@@ -36,11 +36,18 @@ dependencies {
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 }
 
+def replaceProperties = [
+        minecraft_forge_version_range   : rootProject.minecraft_forge_version_range,
+        forge_version_range             : rootProject.forge_version_range,
+        architectury_forge_version_range: rootProject.architectury_forge_version_range,
+        version                         : project.version
+]
+
 processResources {
     inputs.property "version", project.version
 
     filesMatching("META-INF/mods.toml") {
-        expand "version": project.version
+        expand replaceProperties
     }
 }
 

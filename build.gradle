@@ -23,7 +23,7 @@ subprojects {
         // use parchment mappings
         mappings loom.layered() {
             officialMojangMappings()
-            parchment("org.parchmentmc.data:parchment-1.19.2:2022.11.27@zip")
+            parchment("org.parchmentmc.data:parchment-${minecraft_version}:${parchment_version}@zip")
         }
     }
 }

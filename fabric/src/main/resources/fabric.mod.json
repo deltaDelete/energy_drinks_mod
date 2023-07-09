@@ -8,8 +8,8 @@
     "deltaDelete"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/energy-drinks-mod",
+    "sources": "https://github.com/deltaDelete/energy_drinks_mod"
   },
   "license": "MIT",
   "icon": "assets/energy_drinks_mod/icon.png",
@@ -25,7 +25,7 @@
   ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.19.2",
-    "architectury": ">=6.5.7"
+    "minecraft": "${minecraft_version}",
+    "architectury": "${architectury_version}"
   }
 }

@@ -29,11 +29,17 @@ dependencies {
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
 }
 
+def replaceProperties = [
+        version: project.version,
+        minecraft_version: rootProject.minecraft_fabric_version_range,
+        architectury_version: rootProject.architectury_fabric_version_range
+]
+
 processResources {
     inputs.property "version", project.version
 
     filesMatching("fabric.mod.json") {
-        expand "version": project.version
+        expand replaceProperties
     }
 }
 
